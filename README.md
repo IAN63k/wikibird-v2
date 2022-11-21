@@ -1,6 +1,8 @@
 ## wikibird-v2
 App de Aves con java y sqlite en android studio.
 
+### [Video del proyecto](https://youtu.be/g0eZyV8bx0U)
+[![Video del proyecto](https://img.youtube.com/vi/g0eZyV8bx0U/0.jpg)](https://www.youtube.com/watch?v=g0eZyV8bx0U)
 ### [APK del proyecto](https://github.com/IAN63k/app-suma-andorid-studio)
 
 ### Diseño principal:
