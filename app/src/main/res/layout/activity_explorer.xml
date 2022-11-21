@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_dark"
+    tools:context=".Explorer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@drawable/bg_title"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/droid_serif"
+            android:gravity="center"
+            android:text="Choose your \nfavorite bird now."
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addRecordBtn"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_btn_explorer"
+                android:fontFamily="@font/droid_serif"
+                android:text="Agregar"
+                android:textColor="@color/colorBlack"
+                android:textFontWeight="800" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recordsRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="210dp"
+        android:background="@color/gray_dark"
+        android:clipToPadding="false"
+        android:paddingBottom="80dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item" />
+
+</RelativeLayout>

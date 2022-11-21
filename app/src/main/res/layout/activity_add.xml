@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_dark"
+    tools:context=".AgregarItem">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="516dp">
+
+            <ImageView
+                android:id="@+id/profileIv"
+                android:layout_width="match_parent"
+                android:layout_height="516dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/add_image"
+                android:scaleType="centerCrop" />
+
+
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:scrollbars="none"
+            android:background="@drawable/corner_img"
+            android:layout_marginTop="-80dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/nameEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:width="290dp"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:textColorHint="@color/colorWhite"
+                    android:hint="Nombre"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/shape_rectangle"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/familyEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:width="290dp"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:textColorHint="@color/colorWhite"
+                    android:hint="Familia"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/shape_rectangle"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/countryEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:width="290dp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/colorWhite"
+                    android:hint="Pais origen"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/shape_rectangle"
+                    android:inputType="text"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/bioEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dobEt"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/shape_rectangle"
+                    android:gravity="center"
+                    android:hint="Descripción Corta"
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:minHeight="90dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorWhite"
+                    android:textColorHint="@color/colorWhite" />
+
+                <Button
+                    android:id="@+id/saveBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_btn"
+                    android:textColor="@color/colorWhite"
+                    android:text="Registrar" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

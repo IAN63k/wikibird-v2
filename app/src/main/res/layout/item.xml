@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_marginTop="15dp"
+    android:outlineAmbientShadowColor="@color/colorWhite"
+    android:outlineSpotShadowColor="@color/colorWhite"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp"
+    app:layout_constraintStart_toStartOf="parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/nameTv"
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/droid_serif"
+                android:padding="5dp"
+                android:text="sdsdsdsdds"
+                android:textColor="@color/colorBlack"
+                android:textFontWeight="700"
+                android:textSize="28dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/familyTv"
+                    android:layout_width="130dp"
+                    android:layout_height="25dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="4dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/droid_serif"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/etiqueta"
+                    android:text="Depredador"
+                    android:textColor="@color/colorBlack"
+                    android:textFontWeight="600"
+                    android:gravity="center_horizontal" />
+
+                <ImageButton
+                    android:id="@+id/moreBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:backgroundTint="@color/colorWhite"
+                    android:src="@drawable/ic_more_black" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileIv"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="1dp"
+                android:onClick="onClick"
+                android:src="@drawable/ic_person_black" />
+
+            <TextView
+                android:id="@+id/descpTv"
+                android:layout_width="310dp"
+                android:layout_height="90dp"
+                android:fontFamily="@font/droid_serif"
+                android:padding="10dp"
+                android:paddingBottom="0dp"
+                android:textFontWeight="200"
+                android:text=""
+                android:textColor="@color/colorBlack" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

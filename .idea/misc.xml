@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Andres Felipe/AndroidStudioProjects/ProyectSQLite final/app/src/main/res/layout/activity_agregar_registro.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/Andres Felipe/AndroidStudioProjects/ProyectSQLite final/app/src/main/res/layout/activity_detalle_registro.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/Andres Felipe/AndroidStudioProjects/ProyectSQLite final/app/src/main/res/layout/activity_main.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/Andres Felipe/AndroidStudioProjects/ProyectSQLite final/app/src/main/res/menu/menu_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/ProyectSQLite final/app/src/main/res/drawable-anydpi/ic_more_black.xml" value="0.1865" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/ProyectSQLite final/app/src/main/res/drawable/shape_rectangle.xml" value="0.1865" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/ProyectSQLite final/app/src/main/res/layout/activity_agregar_registro.xml" value="0.209375" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/ProyectSQLite final/app/src/main/res/layout/activity_detalle_registro.xml" value="0.209375" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/ProyectSQLite final/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/ProyectSQLite final/app/src/main/res/layout/row_record.xml" value="0.209375" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/ProyectSQLite final/app/src/main/res/menu/menu_main.xml" value="0.209375" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/drawable-anydpi/ic_more_black.xml" value="0.212" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/drawable-xxhdpi/corner_img.xml" value="0.212" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/drawable/bg_btn.xml" value="0.212" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/drawable/bg_btn_explorer.xml" value="0.211" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/drawable/bg_title.xml" value="0.211" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/drawable/btn_search.xml" value="0.21" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/drawable/etiqueta.xml" value="0.212" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/layout/activity_add.xml" value="0.2046875" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/layout/activity_add_item.xml" value="0.2046875" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/layout/activity_agregar_registro.xml" value="0.2046875" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/layout/activity_detalle_registro.xml" value="0.2046875" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/layout/activity_explorer.xml" value="0.22" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/layout/activity_full_card.xml" value="0.2046875" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/layout/activity_main.xml" value="0.2046875" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/layout/item.xml" value="0.33" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/layout/row_record.xml" value="0.2046875" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/onradmin/app/src/main/res/menu/menu_main.xml" value="0.2046875" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/proyecto-ave-soto/app/src/main/res/drawable/bg_btn.xml" value="0.212" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/proyecto-ave-soto/app/src/main/res/drawable/etiqueta.xml" value="0.212" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/proyecto-ave-soto/app/src/main/res/layout/activity_main.xml" value="0.2046875" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/proyecto-ave-soto/app/src/main/res/layout/item.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/Julia Ortiz/AndroidStudioProjects/proyecto-ave-soto/app/src/main/res/layout/row_record.xml" value="0.2046875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
